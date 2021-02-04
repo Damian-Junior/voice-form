@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Voice auto  fill form</title>
+	<meta charset="utf-8">
+	<meta name="robot" content="follow index">
+	<meta name="viewport" content="width = device-width, initial-scale = 1.0">
+	<link rel="icon" type="icon/image-x" href="image/icon.png">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+	<div id="formContainer">
+
+		<form id="form"> 
+			<h3 style="color:white">click on the play button to begin </h3>
+			<img src="image/logo.png" id="logo">
+			<img src="image/play.png" id="playButton">
+	     	<input type="text" id="fName" placeholder="First Name" required>
+		   <input type="text" id = "sName" placeholder="SurName" required>
+		   <input type="email" id="email" placeholder="Email" required>
+		   <input type="password" id="pass" name="passwrd" placeholder="Enter Password" required>
+		   <input type="tel" name="number" id="pNumber" placeholder="Enter Phone Number" required>
+	       <button type="submit" id="submit">Subcribe</button>
+      </form>
+	</div>
+     
+
+    <script  src="voice.js">   
+    </script>
+</body>
+</html>
